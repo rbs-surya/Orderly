@@ -1,0 +1,50 @@
+.form-container{
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    height: 320px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5) url('../../assets/theme.png');
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.error-msg{
+    color: RGB(223, 191, 86);
+}
+
+h3{
+    
+    margin: 5px;
+    color: RGB(223, 191, 86);
+    font-family: 'Apple Chancery, cursive';
+}
+label{
+    color: RGB(223, 191, 86);
+}
+form{
+    padding: 5px;
+    width: 75%;
+}
+.form-group{
+    padding: 5px;
+    margin: 5px;
+}
+small{
+    margin: 5px;
+}
+button{
+    margin: 5px;
+    
+}
+
+.login-buttons{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
